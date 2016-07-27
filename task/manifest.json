@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Line Feeder",
+  "description": "Stores just a line!",
+  "version": "1.0",
+  
+  "browser_action":{
+    "default_popup" : "index.html"
+  },
+   
+  "icons": { 
+  "64": "icon.png"
+  },
+
+  "permissions":[
+    "storage"
+  ]
+  
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter Social Toolkit",
+  "description": "Twitter",
+  "version": "1.0",
+  
+  "background":{
+    "scripts": ["background.js"]
+  },
+  
+  "icons": { 
+    "16": "icon.png",
+   "32": "icon.png",
+   "64": "icon.png",
+   "128": "icon.png" 
+  },
+  "permissions":[
+    "contextMenus"
+  ]
+}

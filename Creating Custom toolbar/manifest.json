@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Custom toolbar",
+  "description": "Its a custom toolbar",
+   "version": "1.0",
+  
+  "browser_action": { //for pop enviornment
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+  	"64" : "icon.png"
+  },
+
+  "content_scripts": [	// for user enviornment
+  {
+  	"matches": ["http://*/*","https://*/*"],
+    "css": ["style.css"],
+   	"js":["myscript.js"]
+  }
+  ],
+  "web_accessible_resources": [
+    "toolbar.html",
+    "style.css"
+  ]
+}

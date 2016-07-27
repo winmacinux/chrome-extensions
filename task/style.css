@@ -1,0 +1,13 @@
+body{
+background-color: lightblue;
+color: red;
+font-size: 24px;
+}
+input{
+	border: 3px  bold red;
+	background-color: yellow;
+}
+.size{
+	height: 400px;
+	width: 400px;
+}
